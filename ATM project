@@ -58,7 +58,7 @@ class debt{
 }
 class content{
 	public void con(){
-		List<String>options = Arrays.asList("Deposite","withdraw","balance enquirey","debt");
+		List<String>options = Arrays.asList("Deposite","withdrawl","balance enquirey","debt");
 		System.out.println("what service you want: ");
 		for(String opt:options) {
 		System.out.println(opt);
